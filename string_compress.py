@@ -23,4 +23,3 @@ def compress(chars):
 chars=list(input("Enter a string: "))
 k=compress(chars)
 print(k)
-#print("compressed string is","".join(k))
