@@ -67,4 +67,23 @@ for ele in lst:
 
 print("unique elements are: ",unique_ele)
 
+print("\n")
+print("**********************************************************")
+print("\n")
+#way 4
 
+def removeDuplicates(nums):
+    n=len(nums)
+    if n==0:
+        return 0
+    j=0
+    for i in range(n):
+        if nums[i]!=nums[j]:
+            j+=1
+            nums[j]=nums[i]
+
+    return j+1
+
+
+nums=[int(x) for x in input("Enter a numbers for a list:").split()]
+print(removeDuplicates(nums))
