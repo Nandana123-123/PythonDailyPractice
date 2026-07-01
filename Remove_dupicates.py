@@ -70,7 +70,7 @@ print("unique elements are: ",unique_ele)
 print("\n")
 print("**********************************************************")
 print("\n")
-#way 4
+#way 4 to remove duplicates in sorted array and return the length of a non duplicated array
 
 def removeDuplicates(nums):
     n=len(nums)
