@@ -1,12 +1,12 @@
 def longestConsecutive(nums):
-    n=len(nums)
-    if n==0:
+    length=len(nums)
+    if length==0:
         return 0
     nums.sort()
     count=1
     maxCount=1
 
-    for i in range(1,n):
+    for i in range(1,length):
         if nums[i]==nums[i-1]:
             continue
 
