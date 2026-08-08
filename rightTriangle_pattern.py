@@ -1,4 +1,6 @@
-i=int(input("Enter a number: "))
-for i in range(1,i+1):
-    print("*"*i)
+n=4
+if n&1==0:
+    print("even")
 
+else:
+    print("odd")
