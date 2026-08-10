@@ -1,5 +1,10 @@
-year=int(input("Enter a year: "))
-if (year%400==0 or year%4==0) and (year%100!=0):
-    print("leap year")
-else:
-    print("not leap year")
+n=1234
+maxi=0
+while n>0:
+    rem=n%10
+    if rem>maxi:
+        maxi=rem
+
+    n=n//10
+
+print(maxi)
