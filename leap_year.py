@@ -1,10 +1,10 @@
-n=1234
-maxi=0
-while n>0:
-    rem=n%10
-    if rem>maxi:
-        maxi=rem
+n=5                          #int(input("Enter a number"))
 
-    n=n//10
+for i in range(n):
+    for j in range(n):
+        if i==0 or j==0:
+            print('*',end=" ")
 
-print(maxi)
+        else:
+            print(" ",end=" ")
+    print()
