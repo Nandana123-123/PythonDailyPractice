@@ -15,6 +15,6 @@ def findMedianSortedArrays(nums1, nums2):
     return (num[mid-1]+num[mid])/2.0
 
 
-nums1=[int(x) for x in input("Enter the elements of the array separated by spaces: ").split()]
-nums2=[int(x) for x in input("Enter the elements of the array separated by spaces: ").split()]
+nums1=[int(x) for x in input("Enter the element of the array separated by space: ").split()]
+nums2=[int(x) for x in input("Enter the element of the array separated by space: ").split()]
 print(findMedianSortedArrays(nums1,nums2))
