@@ -13,4 +13,4 @@ def getDivisors(n):
 
 
 n=int(input("Enter a number: "))
-print(getDivisors(n))
+print(getDivisors(n))sq
